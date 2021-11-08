@@ -1,0 +1,29 @@
+.item {
+  display: inline-block;
+  vertical-align: top;
+  width: 236px;
+  margin: 0 10px 35px 0;
+  border: 1px solid red;
+  min-height: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 45px;
+  transition: all, 0.3s;
+  &:hover {
+    cursor: pointer;
+    background: red;
+    transition: all, 0.3s;
+  }
+  .position {
+    position: absolute;
+    right: 8px;
+    top: -12px;
+  }
+  position: relative;
+  .descr {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
